@@ -36,7 +36,7 @@ def popup_window(n1, c1, n2, c2):
     
     # Добавление окна вывода текста
     txtOutput = tk.Text(window, font = ('Courier New', 10, 'bold'))
-    txtOutput.place(x=15, y=115, width=470, height=300)
+    txtOutput.place(x=15, y=115, width=470, height=320)
     
     # Добавление заголовка
     txtOutput.insert(tk.END, '                            Контрольная    Тестовая' + os.linesep)
